@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /index.html
+Allow: /echo.html
+Disallow: /404.html
+Sitemap: https://m.ivanido.net.br/sitemap.xml
