@@ -1,22 +1,109 @@
-<h1>Oi</h1>
 <!DOCTYPE html>
-
-<html>
-
+<html lang="pt-BR">
 <head>
+	<meta charset="UTF-8">
+	<meta name="yandex-verification" content="6f55ac30311075a9" />
+        <meta content="Esta página tem como objetivo, disponibilizar um gerador simples e eficiente de senhas, para e-mails e outros sistemas." name="description">
+        <meta name="keywords" content="Gerador, senha, novas, senhas, variadas, aleatórias, Ivanildo, criando, fortes"/>
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://www.ivanildo.net.br/">
+	<link rel="alternate" media="handheld" href="https://m.ivanildo.net.br/">
+	<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.ivanildo.net.br/">
+	<title>Gerador de senhas</title>
+	<script type="text/javascript" src="https://www.ivanildo.net.br/js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
 
-<meta charset="utf8">
+<nav id="tes">
+	<br><p id="resultado"></p>
+</nav>
 
-<meta http-equiv="refresh" content="0; URL=https://www.ivanildo.net.br/" />
 
-<title> Redirecionando </title>
+<div id="corpo">
+	<div>
+		<div id="corpoPrincipal">
+			<div id="gerarSenha">
+				<h1>Gerador de senhas</h1>
+			</div>
+			<div id="corpo2">
+				<div id="lado1">
+					<textarea class="botao" id="resul" placeholder="A senha aparecera aqui."></textarea>
+					<input type="submit" value="Copiar senha" onclick="copiar()" class="botao" id="bot">
+				</div>
+				<div id="lado2">
+					<p>Quantidade de dígito:
+						<select id="numero">
+							<script>
+							for(var a = 4;a < 51;a++){
+								document.write("	<option value="+a+">"+a+"</option>");
+							}
+							</script>
+						</select>
+					</p>
+					<br>
+					<fieldset>
+						<legend>Caracteres para entrada</legend>
+						<label onclick="che()"><input type="checkbox" class="input" id="L" checked> Letras<br></label>
+						<label id="min"></label>
+						<label id="mas"></label>
+						<label id="min_mas"></label>
+						<label><input type="checkbox" class="input" id="N"> Números<br></label>
+						<label><input type="checkbox" class="input" id="S"> Símbolos<br></label>
+					</fieldset>
+					<br>
+				</div>
+			</div>
+			<br>
+			<div id="btbGerar">
+				<center><input type="submit" value="Gerar senha" onclick="gerar()" class="botao"></center>
+			</div>
+			<center><div id="propaganda"></div></center>
+		</div>	
+		<div id="corpoTexto">
+		
+		</div>
+	</div>
+	<div id="rodape">
+		<ul>
+			<li><a class="normal" rel="nofollow" href="https://www.ivanildo.net.br/termos.html" >TERMOS DE USO</a></li>
+			<li><a class="normal" rel="nofollow" href="https://www.ivanildo.net.br/privacidade.html" >POLITICAS DE PRIVACIDADE</a></li>
+			<li><a class="normal" rel="nofollow" href="https://www.ivanildo.net.br/lgpd.html" > LGPD </a></li>
+			<li><a href="https://link112.com/" title="Link112: Submeter Site" >Link112</a></li>
+		</ul>
+		<p id="copyraty"></p> 
+	</div>
+</div>
 
-</head><body>
+	
+	
+	
+	
 
-<h1>Você está sendo redirecionado para</h1>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
 
-<textarea>https://www.ivanildo.net.br/</textarea> em 3 segundos.
 
+
+<div id="teste">f</div>
+-->
+
+<script>
+/*Caracteres para entrada*/
+che();
+/*rodape*/
+ano();
+</script>
 </body>
-
 </html>
